@@ -16,8 +16,8 @@ on:
     inputs:
       myVersion:
         description: 'Input Version'
-        myValues: description: 'Input Values'
-
+      myValues:
+        description: 'Input Values'
 permissions:
   contents: read
 
