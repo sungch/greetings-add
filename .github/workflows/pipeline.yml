@@ -25,7 +25,9 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
+    outputs:
+      artifact-path: ${{ steps.setoutput.outputs.jarpath }}
+ 
     steps:
     - uses: actions/checkout@v3
     - name: Set up JDK 11
