@@ -38,3 +38,5 @@ jobs:
       with:
         name: greeting-jar
         path: build/libs
+    - name: Datadog JUnitXML Upload
+      uses: DataDog/junit-upload-github-action@v1
